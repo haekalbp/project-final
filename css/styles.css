@@ -1,0 +1,129 @@
+/* --------------- Basic Tag --------------- */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 52px;
+  margin: 0;
+  font-weight: bold;
+}
+
+hr {
+  border: 0;
+  box-shadow: 0 10px 10px -10px #FF2442 inset;
+}
+
+/* --------------- Layout Class --------------- */
+
+.margin-top-container {
+  margin: 50px auto;
+}
+
+.nav-edit {
+  padding: 8px 0;
+}
+
+.col-top-container {
+  margin-top: 100px;
+}
+
+.margin-bot-container {
+  margin: 70px 0 0;
+  padding: 50px 0 20px;
+}
+
+.col-top-success {
+  margin-top: 70px;
+}
+
+.margin-top-form {
+  margin: 4rem auto;
+}
+
+
+/* --------------- Text Class --------------- */
+
+.big-text {
+  color: #FF2442;
+  font-weight: bold;
+}
+
+.thunder-gym {
+  font-weight: bold;
+}
+
+.text-1 {
+  margin: 10px 0 0;
+  position: relative;
+  left: 0.25rem;
+}
+
+.footer-link {
+  color: #FF2442;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  margin: 0 20px;
+}
+
+.copyright {
+  padding: 30px 0 0;
+  font-size: 0.85rem;
+}
+
+
+/* --------------- Button Class --------------- */
+
+.btn {
+  margin: 30px 10px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.btn-first {
+  background-color: #FF2442;
+  color: #fff;
+}
+
+.btn-second {
+  background: transparent;
+  border: 1px solid #FF2442;
+  color: #FF2442;
+}
+
+.btn:hover {
+  background: #FF2442;
+  border: none;
+  color: #fff;
+  box-shadow: 5px 5px 10px #999;
+  transition: 0.3s;
+}
+
+/* --------------- Dark Mode --------------- */
+
+.moon-img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.darkmode-img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.darkmode {
+  background-color: #231E23;
+  color: #DEEEEA;
+  transition: 1.5s;
+}
+
+.brightmode {
+  background-color: #DEEEEA;
+  color: #231E23;
+  transition: 1.5s;
+}
