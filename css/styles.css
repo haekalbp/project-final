@@ -44,8 +44,8 @@ hr:after {
 /* --------------- Spacing --------------- */
 
 .margin-bot-footer {
-  margin: 70px 0 0;
-  padding: 50px 0 20px;
+  margin: 4.375rem 0 0;
+  padding: 3.125rem 0 1.25rem;
 }
 
 .margin-top-content {
@@ -86,11 +86,11 @@ hr:after {
   color: #FF2442;
   text-decoration: none;
   font-family: 'Merriweather', serif;
-  margin: 0 20px;
+  margin: 0 1.25rem;
 }
 
 .copyright {
-  padding: 30px 0 0;
+  padding: 1.875rem 0 0;
   font-size: 0.85rem;
 }
 
@@ -143,6 +143,16 @@ hr:after {
 
 /* --------------- Media Query --------------- */
 
+@media (max-width: 499.98px) {
+  .btn-phone1 {
+    margin-top: 4.25rem;
+  }
+
+  .btn-phone2 {
+    margin-top: 0;
+  }
+}
+
 @media (max-width: 767.98px) {
 
   body {
@@ -165,7 +175,7 @@ hr:after {
     display: none;
   }
 
-  .margin-btn {
+  .margin-btn-index {
     margin-top: 4rem;
   }
 
@@ -195,12 +205,8 @@ hr:after {
 
 }
 
-@media (max-width: 576px) {
-  .btn-phone1 {
-    margin-top: 4.25rem;
-  }
-
-  .btn-phone2 {
-    margin-top: 0;
+@media (min-width: 768px) {
+  .margin-btn-index {
+    margin-top: 4rem;
   }
 }
