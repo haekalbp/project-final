@@ -98,8 +98,8 @@ hr:after {
 /* --------------- Button's Styling --------------- */
 
 .btn {
-  margin: 30px 10px;
-  width: 150px;
+  margin: 1.875rem 0.625rem;
+  width: 9.375rem;
   border-radius: 20px;
 }
 
@@ -165,8 +165,12 @@ hr:after {
     display: none;
   }
 
-  .margin-btn {
+  .btn-phone1 {
     margin-top: 4rem;
+  }
+
+  .btn-phone2 {
+    margin-top: 1rem;
   }
 
   .margin-top-download {
