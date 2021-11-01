@@ -222,7 +222,3 @@ hr:after {
   }
 
 }
-
-/* Notes!
-Jika mini-gchrome yg dicek (499.99px), maka aktifkan .margin-btn-index {margin-top: 4rem;} pada {max-width: 767.98px}.
-*/
