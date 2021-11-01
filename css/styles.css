@@ -197,16 +197,22 @@ hr:after {
     margin: 3rem auto;
   }
 
+  #btn-id {
+    margin-top: 4rem;
+  }
+
 }
 
 @media (min-width: 768px) {
+
   .margin-btn-index {
     margin-top: 4rem;
   }
+
 }
 
-/* Jika mini-gchrome yg dicek (499.99px), maka aktifkan styling ini dan masukkan .margin-btn-index {margin-top: 4rem;} pada {max-width: 767.98px}.
-@media (max-width: 499.98px) {
+@media (min-width: 600px) {
+
   .btn-phone1 {
     margin-top: 4.25rem;
   }
@@ -214,5 +220,5 @@ hr:after {
   .btn-phone2 {
     margin-top: 0;
   }
+
 }
-*/
