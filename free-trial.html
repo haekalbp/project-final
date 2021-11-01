@@ -20,18 +20,18 @@
 <body>
 
   <!-- Awalan Navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top nav-edit">
-    <div class="container">
-      <img src="img/sun.png" class="icon darkmode-img mx-4" onclick="setDarkMode(false)">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container margin-phone">
+      <img src="img/sun.png" class="darkmode-img mx-4" onclick="setDarkMode(false)">
       <a class="navbar-brand thunder-gym" href="index.html">Thunder Gym</a>
-      <img src="img/moon.png" class="icon darkmode-img mx-2" onclick="setDarkMode(true)">
+      <img src="img/moon.png" class="darkmode-img mx-2" onclick="setDarkMode(true)">
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto nav-edit">
+        <ul class="navbar-nav ms-auto py-2">
           <li class="nav-item">
             <a class="nav-link active mx-4" aria-current="page" href="index.html">Home</a>
           </li>
@@ -48,9 +48,9 @@
   <!-- Akhiran Navbar -->
 
   <!-- Awalan Content -->
-  <div class="container text-center mt-5">
-    <h1><span class="big-text">Redeem</span> Your Free Trial</h1><hr>
-    <form class="row g-3 margin-top-form" action="https://formsubmit.co/9a2bbfa11f0dc7122d2fc23b12a13738" method="POST">
+  <div class="container text-center margin-pc">
+    <hr class="mb-5"><h1><span class="big-text">Redeem</span> Your Free Trial</h1><hr class="mt-5">
+    <form class="row g-3 my-5" action="https://formsubmit.co/9a2bbfa11f0dc7122d2fc23b12a13738" method="POST">
 
       <!-- Honeypot -->
       <input type="text" name="_honey" style="display: none;">
@@ -61,11 +61,11 @@
       <input type="hidden" name="_next" value="https://haekalbp.github.io/project-final/success.html">
 
 
-      <div class="col-md-6 mb-3">
+      <div class="col-md-6 mt-5 mb-3">
         <label for="firstName" class="form-label">First Name</label>
         <input type="text" class="form-control" name="First&nbsp;Name" id="firstName" placeholder="First name" aria-label="First name" required>
       </div>
-      <div class="col-md-6 mb-3">
+      <div class="col-md-6 mt-5 mb-3">
         <label for="lastName" class="form-label">Last Name</label>
         <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" placeholder="Last name" aria-label="Last name" required>
       </div>
@@ -85,7 +85,7 @@
   <!-- Akhiran Content -->
 
   <!-- Awalan Footer -->
-  <footer class="bg-dark text-white text-center align-middle margin-bot-container">
+  <footer class="bg-dark text-white text-center margin-bot-footer">
     <a class="footer-link" href="#">facebook</a>
     <a class="footer-link" href="#">instagram</a>
     <a class="footer-link" href="#">twitter</a>

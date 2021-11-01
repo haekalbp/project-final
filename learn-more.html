@@ -20,18 +20,18 @@
 <body>
 
   <!-- Awalan Navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top nav-edit">
-    <div class="container">
-      <img src="img/sun.png" class="icon darkmode-img mx-4" onclick="setDarkMode(false)">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container margin-phone">
+      <img src="img/sun.png" class="darkmode-img mx-4" onclick="setDarkMode(false)">
       <a class="navbar-brand thunder-gym" href="index.html">Thunder Gym</a>
-      <img src="img/moon.png" class="icon darkmode-img mx-2" onclick="setDarkMode(true)">
+      <img src="img/moon.png" class="darkmode-img mx-2" onclick="setDarkMode(true)">
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto nav-edit">
+        <ul class="navbar-nav ms-auto py-2">
           <li class="nav-item">
             <a class="nav-link active mx-4" aria-current="page" href="index.html">Home</a>
           </li>
@@ -54,10 +54,10 @@
         <img class="img-fluid" src="img/boxing.png" alt="logo">
       </div>
 
-      <div class="col-md-5 mt-5">
+      <div class="col-md-5 margin-top-download">
         <h1><span class="big-text">Learn More</span> About Fitness World.</h1>
-        <p class="text-1">Download the guide below.</p>
-        <form class="row g-3" action="https://formsubmit.co/9a2bbfa11f0dc7122d2fc23b12a13738" method="POST">
+        <p class="text-1">Download the free article below.</p>
+        <form class="row g-3 margin-btn-form1" action="https://formsubmit.co/9a2bbfa11f0dc7122d2fc23b12a13738" method="POST">
 
           <!-- Honeypot -->
           <input type="text" name="_honey" style="display: none;">
@@ -75,7 +75,7 @@
             <label for="emailInfo" class="form-label"></label>
             <input type="email" class="form-control" name="E-mail" id="emailInfo" placeholder="E-mail" aria-label="E-mail" required>
           </div>
-          <div class="col-md-12 text-center">
+          <div class="col-md-12 margin-btn-form2 text-center">
             <button type="submit" class="btn btn-danger" name="button">Download</button>
           </div>
         </form>
@@ -85,7 +85,7 @@
   <!-- Akhiran Content -->
 
   <!-- Awalan Footer -->
-  <footer class="bg-dark text-white text-center align-middle margin-bot-container">
+  <footer class="bg-dark text-white text-center margin-bot-footer">
     <a class="footer-link" href="#">facebook</a>
     <a class="footer-link" href="#">instagram</a>
     <a class="footer-link" href="#">twitter</a>
