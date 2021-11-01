@@ -143,16 +143,6 @@ hr:after {
 
 /* --------------- Media Query --------------- */
 
-@media (max-width: 499.98px) {
-  .btn-phone1 {
-    margin-top: 4.25rem;
-  }
-
-  .btn-phone2 {
-    margin-top: 0;
-  }
-}
-
 @media (max-width: 767.98px) {
 
   body {
@@ -175,8 +165,12 @@ hr:after {
     display: none;
   }
 
-  .margin-btn-index {
-    margin-top: 4rem;
+  .btn-phone1 {
+    margin-top: 4.25rem;
+  }
+
+  .btn-phone2 {
+    margin-top: 0;
   }
 
   .margin-top-download {
@@ -210,3 +204,15 @@ hr:after {
     margin-top: 4rem;
   }
 }
+
+/* Jika mini-gchrome yg dicek (499.99px), maka aktifkan styling ini dan masukkan .margin-btn-index {margin-top: 4rem;} pada {max-width: 767.98px}.
+@media (max-width: 499.98px) {
+  .btn-phone1 {
+    margin-top: 4.25rem;
+  }
+
+  .btn-phone2 {
+    margin-top: 0;
+  }
+}
+*/
