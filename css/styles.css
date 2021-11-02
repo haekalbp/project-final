@@ -14,7 +14,23 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 15px;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
 /* --------------- Anchor's Styling --------------- */
+
+a {
+  text-decoration: none;
+}
 
 a:hover {
   color: #DEEEEA;
@@ -52,6 +68,10 @@ hr:after {
   margin-top: 6.25rem;
 }
 
+.margin-top-article {
+  margin-top: 3rem;
+}
+
 .margin-top-download {
   margin-top: 2.5rem;
 }
@@ -62,6 +82,10 @@ hr:after {
 
 .margin-phone {
   margin: 0.35rem auto;
+}
+
+.bg-edit {
+  background-color: #231E23;
 }
 
 
@@ -94,6 +118,14 @@ hr:after {
   font-size: 0.85rem;
 }
 
+.blog-text {
+  font-size: 0.75rem;
+}
+
+.justify-content {
+  text-align: justify;
+}
+
 
 /* --------------- Button's Styling --------------- */
 
@@ -120,6 +152,14 @@ hr:after {
   color: #fff;
   box-shadow: 5px 5px 10px #999;
   transition: 0.3s;
+}
+
+/* --------------- Images Sizing --------------- */
+
+.article-img {
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
 }
 
 /* --------------- Dark Mode --------------- */
@@ -149,12 +189,28 @@ hr:after {
     text-align: center;
   }
 
+  .text-mobile {
+    text-align: inherit;
+  }
+
   .margin-top-content {
     margin: 0 auto;
   }
 
+  .margin-top-article {
+    margin-top: 2.5rem;
+  }
+
+  .margin-top-article-special {
+    margin-top: 3rem;
+  }
+
   .margin-phone {
     margin: 1rem auto;
+  }
+
+  .margin-phone-2 {
+    margin-top: 3rem;
   }
 
   .text-1 {
@@ -199,6 +255,10 @@ hr:after {
 
   .margin-btn-index {
     margin-top: 4rem;
+  }
+
+  .margin-top-footer-phone {
+    margin: 0 auto auto;
   }
 
 }
