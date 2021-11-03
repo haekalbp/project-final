@@ -126,6 +126,14 @@ hr:after {
   text-align: justify;
 }
 
+.hover-text:hover {
+  color: #FF2442;
+}
+
+.sub-color-text {
+  color: #766161;
+}
+
 
 /* --------------- Button's Styling --------------- */
 
